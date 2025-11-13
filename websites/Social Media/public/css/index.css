@@ -1,0 +1,260 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+:root{
+  --back1: #fffffb;
+  --back2: #f6f6f6;
+}
+.Container {
+  width: 100%;
+  height: 100svh;
+}
+.Wrapper {
+  width: 100%;
+  height: 100%;
+  background-color: var(--back2);
+}
+header {
+  width: 100%;
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  justify-items: center;
+  align-content: center;
+  align-items: center;
+}
+.HeaderWrapper {
+  width: 99%;
+  height: 90%;
+  background-color: var(--back1);
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  justify-items: center;
+  align-content: center;
+  align-items: center;
+}
+.LeftSection {
+  width: 33.33%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  justify-items: center;
+  align-content: center;
+  align-items: center;
+}
+.Logo {
+  font-size: 25px;
+  font-weight: bold;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  width: 40%;
+}
+.SearchBox {
+  width: 60%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  justify-items: center;
+  align-content: center;
+  align-items: center;
+}
+.SearchBoxWrapper {
+  width: 90%;
+  height: 40px;
+  border-radius: 15px;
+  background-color: var(--back2);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  justify-items: center;
+  align-content: center;
+  align-items: center;
+}
+.SearchInput {
+  width: 100%;
+  height: 90%;
+  background-color: transparent;
+  border: none;
+  border-radius: 15px;
+  text-align: center;
+  font-size: 17px;
+}
+.MiddleSection {
+  width: 33.33%;
+  height: 100%;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  justify-items: center;
+  align-content: center;
+  align-items: center;
+}
+.Navigation {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  justify-items: center;
+  align-content: center;
+  align-items: center;
+}
+.Navigation ul {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  justify-items: center;
+  align-content: space-evenly;
+  align-items: center;
+  list-style-type: none;
+  font-size: 22px;
+}   
+.RightSection {
+  width: 33.33%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  justify-items: center;
+  align-content: center;
+  align-items: center;
+}
+.Profile{
+
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  justify-items: center;
+  align-content: center;
+  align-items: center;
+  text-align: center;
+}
+.ProfileWrapper{
+
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  justify-items: center;
+  align-content: center;
+  align-items: center;
+  text-align: center;
+  color: darkblue;
+  font-size: 20px;
+  gap: 20px;
+}
+.ProfileWrapper img{
+  width: 40px;
+  height: 40px;
+  background-color: red;
+  border-radius: 100%;
+}
+/* Main */
+
+main{
+  width: 100%;
+  height: 900px;
+  display: flex;
+  flex-direction: row;
+  justify-items: center;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+.MainWrapper{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-items: center;
+  justify-content: space-between;
+  align-items: center;
+  align-content: space-between;
+  background-color: darkgray;
+}
+.mLeftTab{
+  width: 23%;
+  height: 100%;
+  background-color: darkblue;
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+.mMiddleTab{
+  width: 52%;
+  height: 100%;
+  background-color: darkcyan;
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+.mRightTab{
+  width: 23%;
+  height: 100%;background-color: darkgoldenrod;
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+.ProfileTab{
+  width: 100%;
+  height: 50%;
+  background-color: red;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  justify-items: center;
+  align-items: center;
+  align-content: center;
+}
+.mProfileWrapper{
+  width: 95%;
+  height: 90%;
+  background-color: darkslategrey;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  justify-items: center;
+  align-items: center;
+  align-content: space-evenly;
+}
+.RecentlyVisitedTab{
+  width: 100%;
+  height: 50%;
+  background-color: darkgreen;
+}
+.ptc{
+  width: 100%;
+  height: 20%;
+  background-color: darkred;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  justify-items: center;
+  align-items: center;
+  align-content: center;
+}
+.ptc img{
+  
+  height: 100%;
+  background-color: darkviolet;
+  border-radius: 100%;
+  aspect-ratio: 1/1;
+}
