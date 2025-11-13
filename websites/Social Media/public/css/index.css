@@ -5,6 +5,7 @@
 :root{
   --back1: #fffffb;
   --back2: #f6f6f6;
+  --btnback: #2693ff;
 }
 .Container {
   width: 100%;
@@ -179,18 +180,29 @@ main{
   justify-content: space-between;
   align-items: center;
   align-content: space-between;
-  background-color: darkgray;
+  background-color: var(--back2);
 }
 .mLeftTab{
   width: 23%;
   height: 100%;
-  background-color: darkblue;
+
   display: flex;
   flex-direction: column;
   justify-items: center;
   justify-content: center;
   align-items: center;
   align-content: center;
+}
+.Username{
+  color: black;
+  font-size: 25px;
+  font-weight: bold;
+  font-family: 'Courier New', Courier, monospace;
+}
+.ID{
+  font-size: 25px;
+  color: black;
+  font-family: 'Courier New', Courier, monospace;
 }
 .mMiddleTab{
   width: 52%;
@@ -216,7 +228,7 @@ main{
 .ProfileTab{
   width: 100%;
   height: 50%;
-  background-color: red;
+
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -227,7 +239,19 @@ main{
 .mProfileWrapper{
   width: 95%;
   height: 90%;
-  background-color: darkslategrey;
+  background-color: var(--back1);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  justify-items: center;
+  align-items: center;
+  align-content: space-evenly;
+  border-radius: 15px;
+}
+.RecentlyVisitedTab{
+  width: 95%;
+  height: 90%;
+
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
@@ -235,15 +259,22 @@ main{
   align-items: center;
   align-content: space-evenly;
 }
+.mUserProfileImage{
+  width: 100%;
+  flex-direction: row !important;
+  justify-content: space-evenly !important;
+  font-size: 20px !important;
+  font-weight: bold;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
 .RecentlyVisitedTab{
   width: 100%;
   height: 50%;
-  background-color: darkgreen;
 }
 .ptc{
   width: 100%;
   height: 20%;
-  background-color: darkred;
+
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -251,10 +282,46 @@ main{
   align-items: center;
   align-content: center;
 }
-.ptc img{
+.ptc2{
+  width: 100%;
+  height: 20%;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  justify-items: center;
+  align-items: center;
+  align-content: center;
+}
+.ptc2 img{
+  height: 80% !important;
+}
+
+.ptc img, .ptc2 img{
   
   height: 100%;
   background-color: darkviolet;
   border-radius: 100%;
   aspect-ratio: 1/1;
+}
+.ViewProfileBtn{
+  width: 100% !important;
+  height: 20% !important;
+  
+}
+.ViewProfileBtn a{
+  width: 60%;
+  height: 60%;
+  background-color: var(--btnback);
+  border-radius: 10px;
+  color: white;
+   display: flex;
+  flex-direction: column;
+  justify-content: center;
+  justify-items: center;
+  align-items: center;
+  align-content: center;
+  text-decoration: none;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 20px;
 }
